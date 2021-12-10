@@ -1,0 +1,87 @@
+To install pip on windows use the following commands
+-open the link from Activity 1
+- Save(Ctrl+s or Cmd + S) file to download get-pip.py to a folder on your computer.
+-Open a command prompt / terminal and navigate to the folder containing get-pip.py.
+-Run the following command: python3 get-pip.py
+
+    ----->>> python3 get-pip.py
+
+ To check if pip is correctly installed on your system. Run following command on your command prompt / terminal
+    
+    ----->>> pip3 --version
+
+
+Now install an important and a very popular python package called howdoi.
+We need to simply run:
+    ----->>> pip3 install howdoi
+
+The message displayed will tell us if howdoi was installed properly howdoi is a very interesting tool for developers. 
+howdoi is a type of google for developers BUT you get only one "best" result. The result is not always perfect. But it is very helpful and quick tool to learn to do anything related to
+programming.
+
+    ----->>> howdoi write functions in python
+
+    ----->>> howdoi declare variables in python
+
+    ----->>> howdoi write class in python
+
+Indentation is very important while we are creating the class. __init__ is a pre-defined function in python and it is very similar to our
+constructor in javascript. It is called whenever we create an object using the class. It takes some arguments and creates an object using the arguments.
+You can see that __init__ function is taking several arguments.
+
+self -> similar to this keyword in javascript. Not necessary to pass
+name -> string 
+age -> number
+gender -> string
+level -> number
+grades -> this is a dictionary in python. similar to json object in javascript.
+
+
+
+cd /Users/unsgypsy/Documents/GitHub/Pyhton/C100/
+uttaras-iMac:C100 unsgypsy$ python3 get-pip.py
+pip3 --version
+pip3 install howdoi
+
+-----
+ howdoi write functions in python
+def main():
+    print Kerma()
+
+def Kerma():
+    return "energy / mass"    
+
+if __name__ == '__main__':
+    main()
+
+
+-----
+howdoi declare variables in python
+foo = 'bar' # the name 'foo' is now a name for the string 'bar'
+foo = 2 * 3 # the name 'foo' stops being a name for the string 'bar',
+# and starts being a name for the integer 6, resulting from the multiplication
+
+
+-------
+howdoi write classes in python
+
+-------
+howdoi create objects in python
+class Student(object):
+    name = ""
+    age = 0
+    major = ""
+
+    # The class "constructor" - It's actually an initializer 
+    def __init__(self, name, age, major):
+        self.name = name
+        self.age = age
+        self.major = major
+
+def make_student(name, age, major):
+    student = Student(name, age, major)
+    return student
+
+--------
+howdoi upload files to dropbox
+

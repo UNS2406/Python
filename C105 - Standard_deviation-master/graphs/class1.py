@@ -37,8 +37,8 @@ print("Mean (Average) is -> "+str(mean))
 #df = pd.read_csv("class1.csv")
 
 #fig = px.scatter(df,    x="Student Number",
-                        y="Marks"
-            )
+  #                      y="Marks"
+ #           )
 #fig.update_layout(shapes=[
  #   dict(
  #     type= 'line',

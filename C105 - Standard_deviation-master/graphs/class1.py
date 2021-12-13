@@ -5,8 +5,8 @@
 
 import csv
 
-with open('class1.csv', newline='') as f:
-    reader = csv.reader(f)
+with open('class1.csv', newline='') as fileObject:
+    reader = csv.reader(fileObject)
     file_data = list(reader)
 
 #To remove headers from CSV
